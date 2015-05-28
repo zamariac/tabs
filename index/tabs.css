@@ -2,7 +2,13 @@ div{
 	display: inline-block;
 }
 
-.red {
+nav div:hover {
+	background:black;
+	color: white;
+
+}
+
+.red{
 	height:30px;
 	width: 60px;
 	border-right:1px solid black;
@@ -30,9 +36,14 @@ div{
 	text-align: center;
 	padding-top: 10px;
 	float:left;
+	
 }
 
 section{
+
 	height: 400px;
 	border: 1px solid black;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
 }
