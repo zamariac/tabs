@@ -1,8 +1,13 @@
 $(document).on('ready', start);
+	function start(){
 
-$(section).on('click', function(e){
+$("nav div").on('click', function(e){
+	console.log("hello")
 	var $target = $(e.target);
-	var targetName = $target.attr('section');
+	var targetName = $target.attr('class');
+	$("section").hide();
+	$("#"+ targetName).show();
+})
 
 }
 
