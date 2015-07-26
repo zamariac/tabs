@@ -1,5 +1,7 @@
 $(document).on('ready', start);
 	function start(){
+	$("section").hide();
+	$("#red").show();
 
 $("nav div").on('click', function(e){
 	console.log("hello")
